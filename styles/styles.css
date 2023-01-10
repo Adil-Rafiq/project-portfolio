@@ -177,7 +177,7 @@ body {
 .hero-section {
     position: relative;
     flex-direction: column;
-    min-height: 100vh !important;
+    min-height: 80vh;
     background-color: #202934;
     overflow: hidden;
 }
@@ -380,7 +380,7 @@ footer .socials i:hover{
     }
 } 
 .stars svg {
-    opacity: 0 !important;
+    opacity: 0;
     -webkit-animation: stars-move-in 1000ms 300ms forwards;
     animation: stars-move-in 2000ms 300ms forwards;
 }
@@ -389,6 +389,6 @@ footer .socials i:hover{
         opacity: 0;
     }
     100% {
-        opacity: .7;
+        opacity: .6;
     }
 }
